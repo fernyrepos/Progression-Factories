@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedFarmer</defName>
+		<label>Automated farmer</label>
+		<description>Build a large, automated machine that combines the functions of a sower and harvester, moving back and forth across a designated outdoor zone to harvest mature plants and sow new crops. It deposits harvested goods into attached factory hoppers or drops them on the ground if hoppers are not present, and its operation can be set to automatically cycle once the majority of plants in the zone are fully grown.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedLoom</defName>
+		<label>Automated loom</label>
+		<description>Build an industrial-grade loom designed for the automatic production of textiles and apparel, it efficiently weaves materials like cloth and leather into various finished goods. It can only output goods of normal quality.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.60</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedAmmunitionPress</defName>
+		<label>Automated ammunition press</label>
+		<description>Build an industrial-grade press capable of automatically manufacturing various artillery shells from raw materials.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>3.50</researchViewX>
+		<researchViewY>1.60</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedDrillPlatform</defName>
+		<label>Automated drill platform</label>
+		<description>Build an automated deep-crust drilling rig for extracting minerals from deep under the surface. Capable of extracting stone chunks, but also any metal it finds.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>3.50</researchViewX>
+		<researchViewY>2.20</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>DeepDrilling</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedMincer</defName>
+		<label>Automated mincer</label>
+		<description>Build a machine comprising of a series of automated saws and mincers capable of processing corpses into processed mince.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>3.50</researchViewX>
+		<researchViewY>2.90</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedSmelter</defName>
+		<label>Automated smelter</label>
+		<description>Extracts usable metal from slag chunks, broken-down weapons, apparel, stone chunks, and mechanoid corpses using strong electromagnets and heat.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>0.50</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedBiofuelRefinery</defName>
+		<label>Automated biofuel refinery</label>
+		<description>Build a machine that automatically refines biological matter like wood or plant matter into chemfuel.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>2.20</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>BiofuelRefining</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedMasonrySaw</defName>
+		<label>Automated heavy-duty saw</label>
+		<description>Build a machine that automatically cuts resources into usable building materials.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>3.50</researchViewX>
+		<researchViewY>3.40</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ConveyorOven</defName>
+		<label>Conveyor oven</label>
+		<description>Build an industrial oven for the automated mass-production of simple, shelf-stable, and packaged meals.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VFE_BasicFactories</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ConveyorCrematorium</defName>
+		<label>Conveyor crematorium</label>
+		<description>Build an industrial-grade furnace designed for the automated destruction of unwanted items, especially corpses and tainted apparel, using extreme heat.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>1.60</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VFE_BasicFactories</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedAlloyForge</defName>
+		<label>Automated alloy forge</label>
+		<description>Build a colossal industrial furnace built to contain the immense heat and pressure needed to bond base materials into exotic alloys like plasteel.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>1.60</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VFE_BasicFactories</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedAssembler</defName>
+		<label>Automated assembler</label>
+		<description>Build an automated industrial machine for assembling complex items like components and advanced components.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>2.20</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VFE_BasicFactories</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedDistillery</defName>
+		<label>Automated distillery</label>
+		<description>Build an automated industrial distilling system for the mass production of beer and spirits from raw crops, requiring no manual labor.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>2.30</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VFE_BasicFactories</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedMachiningBay</defName>
+		<label>Automated machining bay</label>
+		<description>Build an automated industrial facility designed for the precision manufacturing of various weapons, armor, and complex equipment. It can only output goods of normal quality.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VFE_BasicFactories</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_MedicineGranulator</defName>
+		<label>medicine granulator</label>
+		<description>Build An advanced pharmaceutical processor for the mass-production of basic medical supplies and drug batches from raw materials. It efficiently grinds, synthesizes, and packages items like medicine, psychite drugs, and smokeleaf joints.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VFE_BasicFactories</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_NeutroamineSynthesizer</defName>
+		<label>neutroamine synthesizer</label>
+		<description>Build an advanced chemical facility designed for the automated synthesis of neutroamine from organic feedstocks. It operates by converting rendered animal fat and chemfuel into neutroamine.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>3.40</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VFE_BasicFactories</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_FactoryBooster</defName>
+		<label>factory booster</label>
+		<description>Build a sensitive micro-processor array designed to enhance the speed and efficiency of industrial factory buildings. It links with nearby factory machines to extend their maximum overclocking limit by an additional 100 percent, allowing for drastically increased production speeds. One factory can use up to three factory boosters.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>5.20</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VFE_BasicFactories</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_FactoryHeatsink</defName>
+		<label>factory heatsink</label>
+		<description>Build a cooling system designed to draw excess heat away from industrial factory buildings. It links with nearby factory machines to reduce their total heat output by 25%, mitigating the risk of overheating and fire. One factory can use up to four factory heatsinks.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>5.20</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VFE_BasicFactories</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedFishfarm</defName>
+		<label>Automated fishfarm</label>
+		<description>Build an industrial fish breeding and harvesting facility designed to automatically extract fish from bodies of water with fish populations.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.60</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedCannery</defName>
+		<label>Automated cannery</label>
+		<description>Build an automated industrial preserving system for the mass production of canned goods from various raw ingredients, requiring no manual labor.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>3.50</researchViewX>
+		<researchViewY>2.90</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

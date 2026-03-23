@@ -1,0 +1,11 @@
+<loadFolders>
+  <v1.6>
+    <li>/</li>
+
+    <!-- General -->
+    <li IfModActive="vanillaexpanded.vfefactory">Mods and Shit/VFE Factory</li>
+    <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>
+
+
+  </v1.6>
+</loadFolders>

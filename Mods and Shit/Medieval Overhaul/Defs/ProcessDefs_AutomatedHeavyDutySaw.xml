@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PipeSystem.ProcessDef>
+		<defName>Ferny_FactoryCutWood</defName>
+		<label>Cut 2 timber from a log of wood</label>
+		<labelOverride>Cut raw wood into timber</labelOverride>
+		<description>Cut rock chunks into usable stone blocks.</description>
+		<priorityInBillList>0</priorityInBillList>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<autoGrabFromHoppers>true</autoGrabFromHoppers>
+		<autoInputSlots>
+			<li>(0,0,2)</li>
+			
+		</autoInputSlots>
+		<ticks>120</ticks>
+		<ingredients>
+			<li>
+				<thingCategory>DankPyon_RawWood</thingCategory>
+				<countNeeded>1</countNeeded>
+			</li>
+		</ingredients>
+		<results>
+			<li>
+				<thing>WoodLog</thing>
+				<count>2</count>
+				<!-- <workerClass>VanillaFurnitureExpandedFactory.ResultWorker_MasonryBlocks</workerClass> -->
+			</li>
+		</results>
+		<isFactoryProcess>true</isFactoryProcess>
+		<autoExtract>true</autoExtract>
+		<onlyGrabAndOutputToFactoryHoppers>true</onlyGrabAndOutputToFactoryHoppers>
+		<sustainerWhenWorking>true</sustainerWhenWorking>
+		<sustainerDef>VFEFactory_AutomatedMachiningSustainer</sustainerDef>
+		<effecterWhenWorking>true</effecterWhenWorking>
+		<effecterDef>VFEFactory_Smelt</effecterDef>
+		<maxOutputCount>75</maxOutputCount>
+	</PipeSystem.ProcessDef>
+	
+	
+</Defs>
