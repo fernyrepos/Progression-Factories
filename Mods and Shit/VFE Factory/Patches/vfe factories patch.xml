@@ -403,5 +403,12 @@
 </Operation>
 
 
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_MedicineGranulator"]/label</xpath>
+    <value>
+        <label>drug granulator</label>
+    </value>
+</Operation>
 
 </Patch>

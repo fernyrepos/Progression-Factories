@@ -206,7 +206,7 @@
 
 	<ResearchProjectDef>
 		<defName>Ferny_MedicineGranulator</defName>
-		<label>medicine granulator</label>
+		<label>drug granulator</label>
 		<description>Build An advanced pharmaceutical processor for the mass-production of basic medical supplies and drug batches from raw materials. It efficiently grinds, synthesizes, and packages items like medicine, psychite drugs, and smokeleaf joints.</description>
 		<baseCost>2500</baseCost>
 		<techLevel>Industrial</techLevel>
