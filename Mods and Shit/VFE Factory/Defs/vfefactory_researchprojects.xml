@@ -264,32 +264,4 @@
 		</prerequisites>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef>
-		<defName>Ferny_AutomatedFishfarm</defName>
-		<label>Automated fishfarm</label>
-		<description>Build an industrial fish breeding and harvesting facility designed to automatically extract fish from bodies of water with fish populations.</description>
-		<baseCost>2500</baseCost>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.60</researchViewY>
-		<tab>VanillaExpanded</tab>
-		<prerequisites>
-			<li>Fabrication</li>
-		</prerequisites>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>Ferny_AutomatedCannery</defName>
-		<label>Automated cannery</label>
-		<description>Build an automated industrial preserving system for the mass production of canned goods from various raw ingredients, requiring no manual labor.</description>
-		<baseCost>2500</baseCost>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>3.50</researchViewX>
-		<researchViewY>2.90</researchViewY>
-		<tab>VanillaExpanded</tab>
-		<prerequisites>
-			<li>Fabrication</li>
-		</prerequisites>
-	</ResearchProjectDef>
-
 </Defs>
